@@ -83,3 +83,31 @@ html {
 }
 
 
+.grid-item{
+  
+  row-gap: 15px !important;
+} 
+
+.image1 {
+  position: relative;
+  top: 25%;
+}
+.image2{
+  position: relative;
+  bottom: 20%;
+
+}
+
+
+
+@media screen and (max-device-width: 991px)  {
+  .image1 {
+    position: relative;
+    top: 0%;
+  }
+  .image2{
+    position: relative;
+    bottom: 0%;
+  
+  }
+}
