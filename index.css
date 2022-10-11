@@ -1,0 +1,9 @@
+/*home*/
+
+.home{
+  display: flex;
+
+  background: url('https://images.thrillophilia.com/image/upload/s--fVJOExFF--/c_fill,g_center,h_320,q_auto,w_1400/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/013/603/original/1571301931_Jaisalmer.jpg.jpg') no-repeat center;
+  height: 100vh;
+}
+    
