@@ -21,14 +21,8 @@ a{
   background-size: cover;
   height: 100vh;
 }
-
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-
-/*===== Variable Define =====*/
 :root {
   --primary-color: #A82C48;
   --secondry-color: #43121d;
@@ -40,12 +34,9 @@ a{
   --primary-font: 'Roboto', sans-serif;
   --secondry-font: 'Quicksand', sans-serif;
 }
-
 html {
   scroll-behavior: smooth;
 }
-
-
 .about {
   font-weight: 700;
   font-size: 2.25rem;
@@ -53,10 +44,7 @@ html {
   font-family: var(--secondry-font);
   color: var(--secondry-color);
   line-height: 3rem;
-
 }
-
-
 .para{
   font-size: 1rem;
   color: var(--text-color);
@@ -64,7 +52,6 @@ html {
   line-height: 1.75rem;
   letter-spacing: 1px;
 }
-
 .main-btn {
   display: inline-block;
   padding: 0.625rem 1.875rem;
@@ -81,13 +68,9 @@ html {
   -moz-transition: all .4s ease-out 0s;
   transition: all .4s ease-out 0s;
 }
-
-
 .grid-item{
-  
   row-gap: 15px !important;
 } 
-
 .image1 {
   position: relative;
   top: 25%;
@@ -95,10 +78,13 @@ html {
 .image2{
   position: relative;
   bottom: 20%;
-
 }
-
-
+.form-control{
+   background: transparent;
+    border: none;
+    border-bottom: 1px solid  #F85438 !important;
+    outline: none;
+} 
 
 @media screen and (max-device-width: 991px)  {
   .image1 {
