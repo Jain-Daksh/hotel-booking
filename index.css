@@ -14,23 +14,12 @@ body {
   color: white !important;
 }
 
-hr {
-  color: white !important;
-}
-
-a {
-  color: white !important;
-}
 
 /*navbar*/
-.navbar {
-  background-color: transparent !important;
-}
+
 
 /*home*/
 .home {
-  margin-top: 0%;
-  display: flex;
   background: url('./image/cameleers-camel-drivers-sunset-thar-desert-sunset-jaisalmer-rajasthan-india_564276-1378.jpg');
   background-position: center;
   background-repeat: no-repeat;
