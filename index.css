@@ -19,14 +19,16 @@ body {
 
 
 /*home*/
-.home {
-  background: url('./image/cameleers-camel-drivers-sunset-thar-desert-sunset-jaisalmer-rajasthan-india_564276-1378.jpg');
+.home{
+  background: url('https://wallpaperaccess.com/full/1343890.jpg') ;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
 }
-
+.heading-homepage{
+  font-weight: bolder;
+}
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 :root {
