@@ -15,8 +15,20 @@ document.addEventListener("DOMContentLoaded", () => {
           }
       }, step);
   }
-  counter("count1", 0, 12, 3000);
-  counter("count2", 100, 1680, 2500);
-  counter("count3", 0, 360, 3000);
+  counter("count1", 0, 12, 7000);
+  counter("count2", 100, 1680, 5500);
+  counter("count3", 0, 360, 7000);
 });
 
+const panels = document.querySelectorAll('.panel')
+panels.forEach(panel => {
+    panel.addEventListener('click', () => {
+        removeActiveClasses()
+        panel.classList.add('active')
+    })
+})
+function removeActiveClasses() {
+    panels.forEach(panel => {
+        panel.classList.remove('active')
+    })
+}
