@@ -1,17 +1,13 @@
 /*common*/
-/* section{
+ section{
   margin-top: 3%;
   margin-bottom: 3%;
-} */
+} 
 body {
   margin: 0px;
   padding: 0px;
-  background-color: black;
-}
-.row {
-  margin: 0px;
-  padding: 0px;
   color: white !important;
+  background-color: black;
 }
 /*home*/
 .home{
@@ -37,11 +33,9 @@ body {
   --primary-font: 'Roboto', sans-serif;
   --secondry-font: 'Quicksand', sans-serif;
 }
-
 html {
   scroll-behavior: smooth;
 }
-
 .about {
   font-weight: 700;
   font-size: 2.25rem;
@@ -80,59 +74,42 @@ html {
   -moz-transition: all .4s ease-out 0s;
   transition: all .4s ease-out 0s;
 }
- /* .im-1{
-  height: 400px;
-} */
-
 .tag {
   color: white;
 }
-
 .counter-section {
   background-color: var(--black-color);
   padding: 2.5rem 0;
 }
-
 .counter-section p {
   color: var(--white-color);
   text-transform: uppercase;
 }
-
 .count {
   font-size: 3rem;
   color: var(--third-color);
 }
-
 .img_item {
   width: 300px;
 }
-
 .img_container {
   overflow: scroll;
   white-space: nowrap;
 }
-
-.grid-item {
-  row-gap: 15px !important;
-}
-
 .image1 {
   position: relative;
   top: 25%;
 }
-
 .image2 {
   position: relative;
   bottom: 20%;
 }
-
 .form-control {
   background: transparent;
   border: none;
   border-bottom: 1px solid #F85438 !important;
   outline: none;
 }
-
 .main-btn-footer {
   display: inline-block;
   padding: 0.325rem 1.875rem;
@@ -184,7 +161,6 @@ html {
   opacity: 1;
   transition: opacity 0.3s ease-in 0.4s;
 }
-
 .footer{
   background: url('https://chetv.b-cdn.net/wp-content/uploads/2018/08/Jaisalmer-fort-at-night.jpg');
   background-position: center;
@@ -192,7 +168,6 @@ html {
   background-size: cover;
   height: fit-content;
 }
-
 @media (max-width: 480px) {
   .slidecontainer {
     width: 100vw;
