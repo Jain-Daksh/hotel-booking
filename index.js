@@ -15,9 +15,9 @@ document.addEventListener("DOMContentLoaded", () => {
           }
       }, step);
   }
-  counter("count1", 0, 12, 7000);
-  counter("count2", 100, 1680, 5500);
-  counter("count3", 0, 360, 7000);
+  counter("count1", 0, 12, 10000);
+  counter("count2", 100, 1680, 8000);
+  counter("count3", 0, 360, 10000);
 });
 
 const panels = document.querySelectorAll('.panel')
