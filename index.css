@@ -112,7 +112,6 @@ html {
 .main-btn-footer {
   display: inline-block;
   padding: 0.325rem 1.875rem;
-  line-height: 1.5625rem;
   background-color: var(--third-color);
   border: 0.1875rem solid var(--third-color);
   color: var(--white-color);
@@ -167,6 +166,12 @@ html {
   background-size: cover;
   height: fit-content;
 }
+.footer-li{
+  color: rgb(240 248 255 / 69%);
+}
+li{
+  list-style-type:none;
+  }
 @media (max-width: 480px) {
   .slidecontainer {
     width: 100vw;
