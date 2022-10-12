@@ -41,22 +41,15 @@ html {
   font-size: 2.25rem;
   text-transform: capitalize;
   font-family: var(--secondry-font);
-  color: var(--white-color);
+  color: var(--secondry-color);
   line-height: 3rem;
 }
 .para{
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: white;
   font-weight: 400;
   line-height: 1.75rem;
   letter-spacing: 1px;
-}
-.paraga{
-  font-size: 0.91rem;
-  color: rgb(255, 255, 255);
-  font-weight: 100;
-  line-height: 24px;
-  letter-spacing: 0.7px;
 }
 .main-btn {
   display: inline-block;
@@ -74,7 +67,7 @@ html {
   -moz-transition: all .4s ease-out 0s;
   transition: all .4s ease-out 0s;
 }
-.tag {
+.tag{
   color: white;
 }
 .counter-section {
@@ -169,8 +162,12 @@ html {
 .footer-li{
   color: rgb(240 248 255 / 69%);
 }
-li{
+.footer li{
   list-style-type:none;
+  }
+  /*blog*/
+  .blog{
+    background-color: #0A0A0A;
   }
 @media (max-width: 480px) {
   .slidecontainer {
