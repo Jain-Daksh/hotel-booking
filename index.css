@@ -52,7 +52,7 @@ html {
   letter-spacing: 1px;
 }
 .paraga{
-  font-size: 0.91rem;
+  font-size: 1.1rem;
   color: rgb(255, 255, 255);
   font-weight: 100;
   line-height: 24px;
@@ -84,7 +84,10 @@ html {
 .bgc{
   background-color: var(--black-color);
  }
-
+.types {
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
 .counter-section p {
   color: var(--white-color);
   text-transform: uppercase;
